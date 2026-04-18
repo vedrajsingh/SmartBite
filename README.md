@@ -1,34 +1,16 @@
-SmartBite - AI Recipe Suggester
-SmartBite is a simple web application that turns your available kitchen ingredients into instant recipes. The main highlight of this project is the "Mood-based" selection, which suggests recipes based on your current energy level.
+# React + Vite
 
-This project was built for HACKATHON 2026.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Features
-Ingredient Chips: An intuitive input system where ingredients are added as visual chips.
+Currently, two official plugins are available:
 
-Mood Modes: Choose from Lazy (quick meals), Healthy (nutritious meals), or Chef Mode (advanced recipes).
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-AI Smart Cards: Every recipe comes with an AI-generated nutrition snapshot including Calories, Protein, Carbs, and Fats.
+## React Compiler
 
-Modern UI: A clean and fast interface built using React and Tailwind CSS.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Tech Stack
-Frontend: React.js & Tailwind CSS
+## Expanding the ESLint configuration
 
-Logic: JavaScript (ES6)
-
-AI: Gemini API
-
-Setup Instructions
-Clone the repository to your local machine.
-
-Run npm install to install all necessary dependencies.
-
-Create a .env file and add your Gemini API key.
-
-Run npm run dev to start the application.
-
-Team - Veds Team
-Vedraj Singh
-
-Ved Prakash Jangir
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
